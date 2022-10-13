@@ -1,0 +1,80 @@
+* {
+    background-color: #000000;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header {
+    text-align: center;
+    font-size: 26px;
+    padding-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 275px;
+    padding-bottom: 20px;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+    border-radius: 16px;
+}
+
+.choice {
+   height: 250px;
+   width: 250px; 
+   border: none;
+   border-radius: 16px;
+   background-color: white;
+   cursor: pointer;
+}
+
+.choice:hover {
+    height: 300px;
+    width: 300px;
+    background-color: white;
+}
+
+.choice:active {
+    background-color: rgb(57, 66, 74);
+}
+
+.choice:disabled {
+   height: 250px;
+   width: 250px; 
+   border: none;
+   border-radius: 16px;
+   background-color: white;
+   cursor: not-allowed;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.scores {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.results {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 24px;
+}
+
+.restart {
+    font-size: 18px;
+    width: fit-content;
+    border-radius: 8px;
+    padding: 8px;
+    cursor: pointer;
+    visibility: hidden;
+}
